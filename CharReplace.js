@@ -2,7 +2,6 @@ public class HelloWorld{
 
      public static void main(String []args){
         String srt = "poor";
-        int length = srt.length();
         System.out.println("The word is " + srt + ".");
         charReplace(srt, 'l', 0);
     }
